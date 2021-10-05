@@ -1,0 +1,23 @@
+{
+  "name": "session-kafka",
+  "version": "1.0.0",
+  "description": "Apache Kafka - An Introduction",
+  "scripts": {
+    "publish": "node publish.js",
+    "consume": "node consume.js"
+  },
+  "author": {
+    "name": "Ravi S Tiwari",
+    "email": "devravitiwari@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/devravitiwari/session-kafka.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": { 
+    "kafkajs": "^1.15.0"
+  }
+}

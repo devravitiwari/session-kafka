@@ -1,0 +1,5 @@
+{
+  "brokers": ["localhost:9092"],
+  "topics": ["broadcaster"],
+  "consumer_group_id": "sessions-kafka-cg"
+}

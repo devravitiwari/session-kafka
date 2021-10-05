@@ -1,0 +1,25 @@
+{
+  "name": "session-kafka",
+  "version": "1.0.0",
+  "description": "Apache Kafka - An Introduction",
+  "scripts": {
+    "start": "gulp serve"
+  },
+  "author": {
+    "name": "Ravi S Tiwari",
+    "email": "devravitiwari@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/devravitiwari/session-kafka.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": { 
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "highlight.js": "^10.0.3",
+    "marked": "^2.0.3"
+  }
+}
