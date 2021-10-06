@@ -19,6 +19,13 @@
 - Link setup more imp than message
 - Not scalable - too many connections, tightly coupled
 
+--v--
+![](img/problem-1.png "Problem")
+--v--
+![](img/problem-2.png "Problem")
+--v--
+![](img/problem-3.png "Problem")
+
 --h--
 
 
@@ -34,7 +41,10 @@
 
 ![](img/broker.png "Distributed System")
 
-
+--v--
+![](img/cluster-1.png "Solution")
+--v--
+![](img/cluster-2.png "Solution")
 --h--
 
 <h3 style="color:hsl(0deg 85% 50% / 90%); text-transform: none;"><em>How the solution looks</em></h3>
@@ -103,6 +113,8 @@
 - Consuming messages is reading messages - no deletion other than as by retention policy
 - Multiple consumes can read a single partition - at different or same offsets
 
+--v--
+![](img/topic-1.png "Partition")
 --h--
 #### So how does consumption happens
 _And what about the queueing problems with earlier solutions?_
@@ -117,14 +129,17 @@ _And what about the queueing problems with earlier solutions?_
 - [Zero-copy data transfer](https://developer.ibm.com/articles/j-zerocopy/) enables high throughput
 - Even a single consumer resides inside a consumer group - a degenerate group
 
-
+--v--
+![](img/cg-1.png "Consumer and Consumer Groups")
 --h--
 
 #### _This in a nutshell completes the picture_
  ...and how some of the parts of Kafka tie together.
 ![](img/arch.png "System Arch")
 
-
+--v--
+<img src="./img/producer-1.png" alt="Producer Arch" style="max-height:600px"> </img>
+<!-- ![](img/producer-1.png "Producer Arch") -->
 --h--
 
 ### DEMO
